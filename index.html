@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="prof">      
+            <div class="dp">
+                <img src="GP.JPG" alt="Profile-photo">
+            </div>
+            <div class="info">
+                <h1 class="name"><strong ></strong>GURPINDER SINGH</strong></h1>
+                <h4 class="future-pos">Full Stack Web Developer</h4>
+                <div class="buttons">
+                    <button onclick="about.scrollIntoView()" class="resume btn"><i class="fas fa-arrow-circle-down"></i> Resume</button>
+                    <button onclick="cntform.scrollIntoView()" class="contact btn">Contact Me</button>
+                </div>
+               
+            </div>
+        </div>
+        <div class="about-info">
+            <div class="left-para">
+                <h2 class="ab-hdng">About Me and Academic Honesty</h2>
+                <br>
+                <p class="about-data">
+                    My name's Gurpinder Singh. I am a 19-year-old Seneca College of Applied Arts and Technology Computer Programming Student (CPP). My home country is India, and I am an international student in Canada. I come from a family of entrepreneurs. I'm highly interested in learning about new technologies in this cutting-edge technological world. Playing badminton, reading books, and listening to and singing music are some of my favorite hobbies. I want to Become a Web Developer because this profession fascinates me a lot. I want to travel the whole world because I love to learn new languages and try a different kinds of foods and love to talk with people from different countries and religions. I believe in the phenomenon of kindness, help, and brotherhood these are the key thing to make this earth more lovely. I'd like to work as a web developer because it's a field that I'm quite interested in. I want to travel the entire world because I enjoy learning new languages, trying new delicacies, and conversing with people from various countries and beliefs. I feel that the phenomena of compassion, helpfulness, and brotherhood are the most important factors in making this world a more beautiful place to live.
+                </p>
+                <br>
+                <p class="date"> <strong>Date</strong>: <time>August 11, 2021</time> </p>
+                
+            </div>
+            <div class="right-para">
+                <h2>Basic Information</h2>
+                <br>
+                <p class="basic-info">
+                    Name - Gurpinder Singh <br> <br>
+                    Student no. – 140515206 <br> <br>
+                    Email - gsingh944@myseneca.ca <br> <br>
+                    Section  - WEB222ZAA <br> <br>
+                    Age- 19 <br> <br>
+                    Language:- English, Punjabi, Hindi <br> <br>
+                    Instructor Name: Muath Alzghool <br> <br>
+
+                </p>
+            </div>          
+        </div>
+        <div class="edu-info">
+            <h1>Education <br> <br> </h1>
+            <div class="pallets">
+                <div class="pallete1">
+                    <div class="left-p1">
+                        <p class="year-p1">
+                            2021 - 2022(expected) <br> <br>
+                        </p>
+                        <p class="dg-p1">
+                            Computer Programming Diploma
+                        </p>
+                    </div>
+                    <div class="right-p1">
+                        At Seneca College of Applied Arts and Technology, I am pursuing a degree in computer programming (CPP). My ambition is to work as a web developer. I'm familiar with a variety of programming languages, including C, C++, Java, Java, JavaScript, and others. I prefer web programming languages such as JavaScript, HTML, and CSS since these languages allow me to work on webpages and construct designs.
+                         In today's cutting-edge environment, these are the most useful languages.
+                    </div>
+                </div>
+                <div class="pallete2">
+                    <div class="left-p2">
+                       <p>Interest in WEB</p> 
+                    </div>
+                    <div class="right-p2">
+                        I am constantly eager to learn new things and never pass up an opportunity to do so. I worked on a project with four pals in high school that was focused on trigonometric values such as sin, cos, tan, cosec, cot, and so on. Every trigonometric function, as we all know, has a certain angle. 
+The project's fundamental concept is to expand a specific type of color type to a given value by contacting wires with batteries.That project was particularly reliant on electronic wiring concepts. And the best part is that I earned first place in the project competition. 
+Secondly, I created a project on how to make soil productive and make nature and the environment more beautiful by keeping water purity, which got first place in my city.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <main>
+        <div class="container">
+            <div class="header">
+                <h2>Contact</h2>
+            </div>
+            <form id="form" class="form" action="https://httpbin.org/post" method="POST">
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="John" id="name" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="john@gmail.com" id="email" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="city">City</label>
+                    <select name="city" id="city">
+                        City
+                        <option>Brampton</option>
+                        <option>Missisauga</option>
+                        <option selected>Toronto</option>
+                        <option>Etobicoke</option>
+                        <option>London</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="postalcode">Postal Code</label>
+                    <input type="text" placeholder="L6T 2M5" id="pcode"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control radio">
+                    <input name="select" type="radio" value="Question" id="radio1"/>
+                    <label for="Question">Question</label>
+                    <input name="select" type="radio" value="Comment" id="radio2"/>
+                    <label for="Comment">Comment</label>
+                    <input name="select" type="radio" value="Hiring" id="radio3"/>
+                    <label for="Hiring">Hiring</label>
+                </div>
+                <div class="form-control" id="hidden-box">
+                    
+                </div>
+                <div class="form-control radio" >
+                    <label for="Message"style="display: block;">Message</label>
+                <textarea style="font-family: inherit;width: 1221px;" id="msg" cols="30" rows="10" placeholder="Type something here..."></textarea>
+                </div>                
+                <button>Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>
